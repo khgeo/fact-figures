@@ -14,6 +14,7 @@
   --shadow: 0 1px 2px rgb(20 33 61 / .06), 0 6px 18px -10px rgb(20 33 61 / .18);
   --t1: #5a6b8c; --t2: #b5485a; --t3: #c98300; --t4: #7a5aa6; --t5: #4c8c3f;
   --t6: #2f8f86; --t7: #2f6fb3; --t8: #b0602e; --t9: #c2416f;
+  --t10: #786e3c; --t11: #3c7896; --t12: #96508c;   /* spare colours for themes 10–12 */
   --display: "Bricolage Grotesque", "Avenir Next", "Segoe UI", system-ui, sans-serif;
   --body: "Figtree", "Segoe UI", system-ui, -apple-system, sans-serif;
   --r: 14px;
@@ -25,6 +26,7 @@
     --cell-empty: #1f2b45; --shadow: 0 1px 2px rgb(0 0 0 / .3), 0 8px 20px -12px rgb(0 0 0 / .6);
     --t1: #93a3c4; --t2: #e57b8c; --t3: #f0b23a; --t4: #b195db; --t5: #7cc06b;
     --t6: #5cc6bc; --t7: #6aa6e8; --t8: #e3915c; --t9: #ec77a2;
+    --t10: #c9bd78; --t11: #7cbbe0; --t12: #d38ccb;
     color-scheme: dark;
   }
 }
@@ -34,6 +36,7 @@
   --cell-empty: #1f2b45; --shadow: 0 1px 2px rgb(0 0 0 / .3), 0 8px 20px -12px rgb(0 0 0 / .6);
   --t1: #93a3c4; --t2: #e57b8c; --t3: #f0b23a; --t4: #b195db; --t5: #7cc06b;
   --t6: #5cc6bc; --t7: #6aa6e8; --t8: #e3915c; --t9: #ec77a2;
+    --t10: #c9bd78; --t11: #7cbbe0; --t12: #d38ccb;
   color-scheme: dark;
 }
 

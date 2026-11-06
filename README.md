@@ -2,14 +2,19 @@
 
 A dashboard of Cambodia's key national indicators, built from the Fact & Figure Database. It is a static site for GitHub Pages: no server and no build step.
 
+Live site: <https://khgeo.github.io/fact-figures/>
+
+**Editors: see [EDITING.md](EDITING.md)** for updating figures, adding new indicators or themes, changing colours and texts, and turning CSV downloads on or off.
+
 ## What it shows
 
 - The latest published figure for each of the 110 indicators. Each figure carries its own year, because sources publish on different schedules.
 - A colour dot shows how recent each figure is: green means up to date (this year or last year), amber means 2–3 years old, red means 4 or more years old.
 - A trend line, the years that have data, and the change since the previous figure.
 - A detail panel for each indicator, with every year, its source and a link.
-- Sub-indicators (women/men, girls/boys, sectors, seasons, share and count) are grouped on one card with bars, and can be compared on one chart.
-- **Download report PDF** and **CSV**: readers choose the indicators first (whole themes, single indicators or the headline figures). The CSV can hold the latest figure only or all years.
+- A chart picked to suit each indicator: rings for shares out of 100, columns for growth and inflation, trend lines for levels.
+- Sub-indicators (women/men, girls/boys, sectors, seasons, share and count) are grouped on one card as donuts, ring gauges or bars, and can be compared on one chart.
+- **Download report PDF**: readers choose the indicators first; the report fits on one A4 page, with numbered sources. A CSV download can be turned on with `allowCSV: true` in `index.html`.
 
 ## Where the data comes from
 
@@ -61,4 +66,5 @@ The website picks up the change the next time someone opens or refreshes the pag
 | `index.html` | Page structure and data settings |
 | `assets/style.css` | Design (light and dark themes) |
 | `assets/app.js` | Loads the data, draws cards and charts, builds the PDF and CSV |
+| `EDITING.md` | Step-by-step guide for editors |
 | `data/data.json` | Built-in copy of the data, used when the sheet cannot be read |
