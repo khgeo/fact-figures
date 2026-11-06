@@ -2,7 +2,7 @@
 
 A dashboard of Cambodia's key national indicators, built from the Fact & Figure Database. It is a static site for GitHub Pages: no server and no build step.
 
-Live site: <https://khgeo.github.io/fact-figures/>
+Live site: <https://vannareth-cmd.github.io/fact-figures/>
 
 **Editors: see [EDITING.md](EDITING.md)** for updating figures, adding new indicators or themes, changing colours and texts, and turning CSV downloads on or off.
 
